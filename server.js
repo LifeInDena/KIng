@@ -93,6 +93,6 @@ app.post("/destroy/:id", function(req, res) {
 });
 
 // tell the express app to listen on port 8000, always put this at the end of your server.js file
-app.listen(process.env.port || 8000, function() {
+app.listen(process.env.PORT || 8000, function() {
     console.log("listening on port 8000");
 })

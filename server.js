@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require("path");
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI+'basic_mongoose');
+mongoose.connect(process.env.MONGODB_URI);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views', __dirname + '/views'); 
 app.use(express.static(__dirname + "/static"));

@@ -14,7 +14,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 600px) {#main {margin-left: 0; margin-top: 60px;}}
 </style>
 <body class="w3-black">
 
@@ -73,6 +73,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- Portfolio Section -->
 <div class="w3-padding-64 w3-content" id="photos">
+  <div class="hey">
     <form action="/loggy" method="post">
         User:
         <input type="text" name="user"><br><br>
@@ -80,6 +81,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <input type="text" name="password"><br><br>
         <input type="submit" value="Submit">
     </form>
+  </div>
 </div>
 </body>
 </html>

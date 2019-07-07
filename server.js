@@ -48,6 +48,12 @@ app.get("/MC-BLACK-JESUS", function (request, response){
     response.render('black');
 })
 
+app.get("/Taylor", function (request, response){
+    response.render('taylor');
+})
+app.get("/Amanda", function (request, response){
+    response.render('amanda');
+})
 
 app.get("/ASHES", function (request, response){
     response.render('ashes');

@@ -40,6 +40,10 @@ app.get('/', function(request, response) {
     response.render('kingdom');
 })
 
+app.get('/Storm', function(request, response) {
+    response.render('storm');
+})
+
 app.get('/admin', function(request, response) {
     response.render('log');
 })
